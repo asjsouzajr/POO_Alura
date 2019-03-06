@@ -6,7 +6,7 @@ public class ContaPoupanca extends Conta{
 		this.saldo += ((porc/100)*this.saldo)*3;
 	}
 	@Override
-	public void depositar(double valorDep) {
+	public void deposita(double valorDep) {
 		//super.depositar(valorDep);
 			this.saldo += (valorDep - 0.10);
 	}
